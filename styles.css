@@ -62,6 +62,14 @@ body {
     font-size: 20px;
     font-weight: 600;
     color: #1f2937;
+    background: #bef4a5;
+    padding: 18px 22px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.receipt-emoji {
+    font-size: 50px;
 }
 
 /* content */
@@ -127,6 +135,56 @@ body {
 .contacts a:hover {
     text-decoration: underline;
 }
+
+.bubbly-contacts {
+    background: #d2f3c3;
+    padding: 18px 22px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 14px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    border-radius: 14px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-item:last-child {
+    margin-bottom: 0;
+}
+
+.contact-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+.contact-item .icon {
+    font-size: 1.4rem;
+}
+
+.contact-item span {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.contact-item a {
+    margin-left: auto;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #6b5cff;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    color: #4b3df2;
+    text-decoration: underline;
+}
+
 
 .copyright {
     text-align: center;
