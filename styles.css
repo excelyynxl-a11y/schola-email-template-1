@@ -127,15 +127,6 @@ body {
     line-height: 1.8;
 }
 
-.contacts a {
-    color: #4f46e5;
-    text-decoration: none;
-}
-
-.contacts a:hover {
-    text-decoration: underline;
-}
-
 .bubbly-contacts {
     background: #d2f3c3;
     padding: 18px 22px;
