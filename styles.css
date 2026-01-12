@@ -27,7 +27,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 18px 24px;
-    background: #b8ed98;
+    background: #b5cf51;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
 }
 
@@ -63,7 +63,7 @@ body {
     font-size: 20px;
     font-weight: 600;
     color: #1f2937;
-    background: #bef4a5;
+    background: #ddf5fe;
     padding: 18px 22px;
     border-radius: 20px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
@@ -129,7 +129,7 @@ body {
 }
 
 .bubbly-contacts {
-    background: #d2f3c3;
+    background: #e34d55;
     padding: 18px 22px;
     border-radius: 20px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
